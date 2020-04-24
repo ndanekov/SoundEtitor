@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
 
-          <BaseRouter />
+          
           <Layout>
           <Header className="header">
             <div className="logo" />
@@ -91,7 +91,7 @@ function App() {
                   minHeight: 280,
                 }}
               >
-                Content
+                <BaseRouter />
               </Content>
             </Layout>
           </Layout>
